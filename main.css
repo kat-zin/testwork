@@ -1,0 +1,61 @@
+.body {
+    background-image: url('images/fon.jpg');
+    background-color: indigo;
+    background-repeat: no-repeat;
+    background-size: 100%;
+ } 
+ .c-button {
+     color: white;
+     padding: 20px 30px;
+     margin: 10px 20px;
+     background-color:violet;
+     background-image: linear-gradient(to right, #c89eef 0%, #9330f0 51%, #ef9edb 100%);
+     border:10em;
+     border-radius: 5px;
+     font-family: 'Montserrat', sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     background-size: 200% auto;
+     transition: .5s;
+ }
+
+ .c-button:hover {
+    background-position: right center;
+  }
+    
+ .gradient-button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+  }
+  .gradient-button:hover {
+    background-position: right center;
+  }
+
+ .main
+ {
+     margin: 0 auto;
+ }
+
+ .main h1 {
+    text-align:center;
+    color:antiquewhite; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+ }
+ .main h4 {
+    text-align:center;
+    color:rgb(49, 143, 80); 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
